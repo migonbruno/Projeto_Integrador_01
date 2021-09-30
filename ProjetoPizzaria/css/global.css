@@ -1,0 +1,54 @@
+* {
+    font-family: 'Tomorrow', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url("/img/fundo01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    background: steelblue;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    text-align: right;    
+}
+.nav a {
+    color: whitesmoke;
+    padding: 1rem;
+    text-decoration: none;
+    
+}
+.nav a:hover, .footer a:hover {
+    background: rgb(52, 96, 133);
+    color: whitesmoke;
+}
+
+/* Rodapé */
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    background-color: steelblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    text-align: center;
+
+}
+.footer > a {
+    color: whitesmoke;
+    padding: .8rem;
+}
+.footer > a:hover {
+    background: rgb(52, 96, 133);
+    text-decoration: none;
+}

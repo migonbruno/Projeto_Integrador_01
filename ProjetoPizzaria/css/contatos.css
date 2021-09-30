@@ -1,0 +1,98 @@
+.row {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+.col2 {
+    width: 100%;
+    border-top: 5px solid steelblue;
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+.col2 p {
+    padding-top: 3rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.col2 ul {
+    list-style: none;
+    /* padding: 0; */
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.col2 img {
+    padding-top: 1rem;
+    width: 100%;
+    display: block;
+    margin: auto;
+    max-width: 400px;
+}
+
+.col1 form, .col1 label {
+    display: block;
+}
+.col1 label {
+    margin-bottom: .3rem;
+}
+.col1 input, .col1 textarea, .col1 button {
+    font-size: inherit;
+    font-family: inherit;
+    border: 1px solid rgb(185, 185, 185);
+    padding: .3rem .3rem;
+    border-radius: .3rem;
+}
+.col1 input, .col1 textarea {
+    width: 100%;
+}
+.col1 textarea {
+    height: 6rem;
+    resize: vertical;
+    overflow: auto;
+}
+.col1 button {
+    background-color: steelblue;
+    color: whitesmoke;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border: groove steelblue;
+}
+
+/* Mensagens de Erro */
+.msgErro {
+    display: table;
+    margin: auto;
+    padding: 0 1rem;
+    background: #ffffcc;
+    color: maroon;
+    border: 1px dotted #ff0000;
+    border-radius: .3rem;
+}
+
+/* Mensagem de agradecimento */
+.msgOk {
+    display: table;
+    margin: auto;
+}
+.msgOk p:not(:last-child) {
+    margin-left: 1rem;
+}
+
+/* Página responsiva em resoluções maiores que 640px */
+@media (min-width: 640px) {
+    .row {
+        flex-direction: row;
+    }
+    .col1 {
+        flex-grow: 1;
+        padding-right: 10rem;
+    }
+    .col2 {
+        width: 250px;
+        padding-left: 1rem;
+        border: 0;
+        margin: 0;
+        border-left: 3px groove cyan;
+        margin-right: 3rem;
+    }
+}

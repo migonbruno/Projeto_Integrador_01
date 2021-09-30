@@ -1,0 +1,31 @@
+.cardtitulo {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.cardapio {
+    max-width: 40%;
+    border: outset steelblue;
+    margin-left: .8rem;
+}
+.cardapio img {
+    max-width: 15%;
+}
+.cardapio form {
+    float: right;
+    
+}
+.cardtitulo2 {
+    padding-top: 2rem;
+    margin-left: 17rem;
+}
+.cardapio2 {
+    max-width: 40%;
+    border: outset steelblue;
+    margin-left: .8rem;
+}
+.cardapio2 img {
+    max-width: 15%;
+}
+.cardapio2 form {
+    float: right;
+}

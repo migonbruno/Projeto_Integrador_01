@@ -1,0 +1,14 @@
+.inicio {
+    text-align: center;
+    padding-top: 0.8rem;
+}
+.conteudo {
+    text-align: center;
+    padding-top: 2rem;
+}
+.conteudo h4 {
+    padding-bottom: 2rem;
+}
+.conteudo img {
+    max-width: 55%;
+}

@@ -1,0 +1,10 @@
+.about {
+    margin-top: 5rem;
+    padding-top: 1rem;
+    padding-bottom: .8rem;
+    text-align: center;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    border-radius: 5rem;
+    border: outset steelblue;
+}

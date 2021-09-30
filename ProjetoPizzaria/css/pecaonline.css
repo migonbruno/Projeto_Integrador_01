@@ -1,0 +1,59 @@
+.row {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+}
+.col1 form, .col1 label {
+    display: block;
+}
+.col1 label {
+    margin-bottom: .3rem;
+}
+.col1 input, .col1 button {
+    font-size: inherit;
+    font-family: inherit;
+    border: 1px solid rgb(185, 185, 185);
+    padding: .3rem .3rem;
+    border-radius: .3rem;
+    width: 50%;
+}    
+.col1 button {
+    background-color: steelblue;
+    color: whitesmoke;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border: groove darkcyan;
+}
+
+/* Mensagens de Erro */
+.msgErro {
+    display: table;
+    margin: auto;
+    padding: 0 1rem;
+    background: #ffffcc;
+    color: maroon;
+    border: 1px dotted #ff0000;
+    border-radius: .3rem;
+}
+
+/* Mensagem de agradecimento */
+.msgOk {
+    display: table;
+    margin: auto;
+}
+.msgOk p:not(:last-child) {
+    margin-left: 1rem;
+}
+
+/* Página responsiva em resoluções maiores que 640px */
+@media (min-width: 640px) {
+    .row {
+        flex-direction: row;
+    }
+    .col1 {
+        flex-grow: 1;
+        padding-right: 1rem;
+    }
+}
